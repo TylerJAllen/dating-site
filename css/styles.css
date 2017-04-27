@@ -1,0 +1,47 @@
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+  background: url("https://images7.alphacoders.com/333/333222.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #b7f818;
+}
+
+img {
+  height: 400px;
+}
+
+.btn {
+  height: 250px;
+  width: 250px;
+  color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: url("../images/button.jpg");
+  background-size: cover;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+#Birdo, #Luigi, #Mario, #Peach, #Toad, #Yoshi {
+  display: none;
+}
+
+.profile p {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  font-size: 32px;
+}
